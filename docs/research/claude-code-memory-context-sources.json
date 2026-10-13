@@ -204,6 +204,76 @@
           "path": "source/src/services/api/claude.ts",
           "sha256": "6d3fd16e608120d502e70ec461ffb66bcbca12fa86862859606c9118f977a999",
           "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/api/claude.ts"
+        },
+        {
+          "path": "source/src/memdir/paths.ts",
+          "sha256": "2937e09ea716d24d086b27e16bbd90d0ca6b326b5c3a18eb5a6b3380959dd7e4",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/memdir/paths.ts"
+        },
+        {
+          "path": "source/src/tools/AgentTool/agentMemory.ts",
+          "sha256": "f5d4ce3b341a75bbbb95c68950f77081c67dc32a2c1591f6905f76b1261496d2",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/tools/AgentTool/agentMemory.ts"
+        },
+        {
+          "path": "source/src/query.ts",
+          "sha256": "74e0ce0d86cfd453add8dc1d15ccb6311b02964b8321e3721b8e71fbd87252ce",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/query.ts"
+        },
+        {
+          "path": "source/src/query/stopHooks.ts",
+          "sha256": "9503d0d926399ea67856cb65d816d959225dc17462ac12e9f566d2ab9661e7e1",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/query/stopHooks.ts"
+        },
+        {
+          "path": "source/src/utils/claudemd.ts",
+          "sha256": "538a13353c2333d462c2ba460176af23da2b6b5bf4c628567ca208633c70a81d",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/utils/claudemd.ts"
+        },
+        {
+          "path": "source/src/utils/backgroundHousekeeping.ts",
+          "sha256": "c75b6f4f63898b33b1766d88cb0ec75ba7f24f8d30c3fa3cb9b2791b5957755f",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/utils/backgroundHousekeeping.ts"
+        },
+        {
+          "path": "source/src/utils/permissions/filesystem.ts",
+          "sha256": "dac63a73c876486a58085f63aba42d0cf0cd749766951a626981e43b832609ae",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/utils/permissions/filesystem.ts"
+        },
+        {
+          "path": "source/src/services/extractMemories/prompts.ts",
+          "sha256": "0ac1179d56716466629822a15c2c2c736847e092708e9d14d7f9a6202db86c9e",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/extractMemories/prompts.ts"
+        },
+        {
+          "path": "source/src/services/SessionMemory/sessionMemoryUtils.ts",
+          "sha256": "2f333a2bd9becb83f655967b9f4bd0bd8affc9aefe8a2da09bfe9c44a7501faf",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/SessionMemory/sessionMemoryUtils.ts"
+        },
+        {
+          "path": "source/src/services/compact/postCompactCleanup.ts",
+          "sha256": "2783f5c75e80638002b5563a0b4ee5daff912bab6523c1473ed1e5060f12e9b7",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/compact/postCompactCleanup.ts"
+        },
+        {
+          "path": "source/src/services/autoDream/autoDream.ts",
+          "sha256": "45bdf093536c634d57fbd27a5c3f29876ccb616441a2325590713f5e575c85d6",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/autoDream/autoDream.ts"
+        },
+        {
+          "path": "source/src/services/autoDream/config.ts",
+          "sha256": "69ac2e67532645b34e20a583135f0e3a3c7d6b2cb845139a97ed1ff01509092d",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/autoDream/config.ts"
+        },
+        {
+          "path": "source/src/services/autoDream/consolidationLock.ts",
+          "sha256": "87d87dc866537217cfd65921fe4cba212999f4fadd4d0d7fa3b0670ff0e7ae3d",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/autoDream/consolidationLock.ts"
+        },
+        {
+          "path": "source/src/services/autoDream/consolidationPrompt.ts",
+          "sha256": "ae961c2e09d6afb0f2f989a4d9ed80db1301338feac6a89b3f8224d41b20baf0",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/autoDream/consolidationPrompt.ts"
         }
       ]
     },
@@ -317,7 +387,79 @@
         "matches_extracted": true
       }
     ],
-    "interpretation": "Internal source-map/extraction consistency only. This does not authenticate official origin or prove equivalence to current releases."
+    "interpretation": "Internal source-map/extraction consistency only. This does not authenticate official origin or prove equivalence to current releases.",
+    "walkthrough_additional_checks": [
+      {
+        "file": "src/memdir/paths.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/tools/AgentTool/agentMemory.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/query.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/query/stopHooks.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/utils/claudemd.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/utils/backgroundHousekeeping.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/utils/permissions/filesystem.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/services/extractMemories/prompts.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/services/SessionMemory/sessionMemoryUtils.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/services/compact/postCompactCleanup.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/services/autoDream/autoDream.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/services/autoDream/config.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/services/autoDream/consolidationLock.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/services/autoDream/consolidationPrompt.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      }
+    ]
   },
   "blog_reading_links": [
     {
@@ -341,5 +483,6 @@
     "Official cookbook examples are not proof of identical Claude Code internals.",
     "Local annotation-result reuse does not establish provider prompt-cache hits.",
     "No new paper novelty claim or general performance claim is made."
-  ]
+  ],
+  "walkthrough_scope": "Additional static call tracing: direct file writes, stop-hook extraction, query-time prefetch consumption, optional index removal, autoDream consolidation scheduling, session-memory compaction and cleanup. Source-map agreement only checks internal consistency, not official authenticity."
 }

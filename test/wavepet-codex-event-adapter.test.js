@@ -1,0 +1,162 @@
+"use strict";
+
+const test = require("node:test");
+const assert = require("node:assert");
+const { CodexWavePetAdapter } = require("../src/wavepet/codex-event-adapter");
+
+test("user_message creates a new turn and user event", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+  const events = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:00.000Z",
+    type: "event_msg",
+    payload: { type: "user_message", message: "帮我改代码" },
+  });
+  assert.equal(events.length, 1);
+  assert.equal(events[0].event, "user_message");
+  assert.equal(events[0].session_id, "codex:s1");
+  assert.equal(events[0].turn_id, "turn_1");
+  assert.ok(events[0].token_estimate > 0);
+});
+
+test("assistant message starts assistant and emits output delta", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+  const events = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:01.000Z",
+    type: "event_msg",
+    payload: { type: "agent_message", message: "我先看看文件。" },
+  });
+  assert.deepEqual(events.map((event) => event.event), ["assistant_start", "assistant_token_delta"]);
+  assert.ok(events[1].delta_tokens_est > 0);
+});
+
+test("task_started falls back to assistant_start before assistant output exists", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+  const events = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:00.500Z",
+    type: "event_msg",
+    payload: { type: "task_started" },
+  });
+  assert.deepEqual(events.map((event) => event.event), ["assistant_start"]);
+});
+
+test("task_complete clears assistant turn tracking for later assistant output", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+
+  const first = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:01.000Z",
+    type: "event_msg",
+    payload: { type: "agent_message", message: "我先看看文件。" },
+  });
+  assert.deepEqual(first.map((event) => event.event), ["assistant_start", "assistant_token_delta"]);
+
+  const end = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:02.000Z",
+    type: "event_msg",
+    payload: { type: "task_complete" },
+  });
+  assert.deepEqual(end.map((event) => event.event), ["task_end_signal", "assistant_end"]);
+
+  const second = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:03.000Z",
+    type: "event_msg",
+    payload: { type: "agent_message", message: "我继续看一下。" },
+  });
+  assert.deepEqual(second.map((event) => event.event), ["assistant_start", "assistant_token_delta"]);
+});
+
+test("reasoning records emit thinking deltas", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+  const events = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:02.000Z",
+    type: "response_item",
+    payload: { type: "reasoning", summary: [{ text: "Need inspect files" }] },
+  });
+  assert.equal(events[0].event, "thinking_delta");
+  assert.ok(events[0].delta_tokens_est > 0);
+});
+
+test("tool call and output emit tool lifecycle and edit/test/error events", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+  const start = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:03.000Z",
+    type: "response_item",
+    payload: { type: "function_call", call_id: "c1", name: "shell_command", arguments: "{\"command\":\"npm test\"}" },
+  });
+  assert.equal(start[0].event, "tool_call_start");
+  assert.equal(start[0].call_kind, "test");
+
+  const end = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:05.000Z",
+    type: "response_item",
+    payload: { type: "function_call_output", call_id: "c1", output: "Exit code: 1\nfailed" },
+  });
+  assert.deepEqual(end.map((event) => event.event), ["tool_call_end", "test_run_end"]);
+  assert.equal(end[0].success, false);
+  assert.equal(end[1].failure_count_est, 1);
+});
+
+test("failed edit tool output emits error feedback alongside file edit", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+  const start = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:03.000Z",
+    type: "response_item",
+    payload: { type: "function_call", call_id: "e1", name: "shell_command", arguments: "{\"command\":\"apply_patch\"}" },
+  });
+  assert.equal(start[0].event, "tool_call_start");
+  assert.equal(start[0].call_kind, "edit");
+
+  const end = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:05.000Z",
+    type: "response_item",
+    payload: { type: "function_call_output", call_id: "e1", output: "Exit code: 1\npatch failed" },
+  });
+  assert.deepEqual(end.map((event) => event.event), ["tool_call_end", "file_edit", "error_feedback"]);
+  assert.equal(end[0].success, false);
+  assert.equal(end[2].error_kind, "tool_failure");
+});
+
+test("exec_command_end falls back to tool_call_end when no call id is open", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+  adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:01.000Z",
+    type: "event_msg",
+    payload: { type: "task_started" },
+  });
+
+  const events = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:02.000Z",
+    type: "event_msg",
+    payload: { type: "exec_command_end", exit_code: 0, command: "npm test" },
+  });
+  assert.deepEqual(events.map((event) => event.event), ["tool_call_end", "test_run_end"]);
+  assert.equal(events[0].call_kind, "test");
+  assert.equal(events[0].success, true);
+});
+
+test("patch_apply_end emits file_edit and fallback tool_call_end", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+  adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:01.000Z",
+    type: "event_msg",
+    payload: { type: "task_started" },
+  });
+
+  const events = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:02.000Z",
+    type: "event_msg",
+    payload: { type: "patch_apply_end", success: true },
+  });
+  assert.deepEqual(events.map((event) => event.event), ["file_edit", "tool_call_end"]);
+  assert.equal(events[1].call_kind, "edit");
+  assert.equal(events[1].success, true);
+});
+
+test("task_complete emits task end and assistant end", () => {
+  const adapter = new CodexWavePetAdapter({ sessionId: "codex:s1" });
+  const events = adapter.eventsFromRecord({
+    timestamp: "2026-07-09T00:00:06.000Z",
+    type: "event_msg",
+    payload: { type: "task_complete" },
+  });
+  assert.deepEqual(events.map((event) => event.event), ["task_end_signal", "assistant_end"]);
+});

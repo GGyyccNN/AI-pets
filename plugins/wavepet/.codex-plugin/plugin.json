@@ -1,0 +1,37 @@
+{
+  "name": "wavepet",
+  "version": "0.1.0+codex.20260625080132",
+  "description": "WavePet tracks and predicts Codex desktop-pet waiting-experience states from live Codex events.",
+  "author": {
+    "name": "Matcha-Eason"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "desktop-pet",
+    "state-machine",
+    "waiting-experience",
+    "llm-observability"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WavePet",
+    "shortDescription": "Track live Codex progress and predict desktop-pet waiting states.",
+    "longDescription": "WavePet estimates user-perceived waiting experience from live assistant tokens, thinking, tool calls, edits, tests, and errors. By default, its pet installer maps the current local Codex Rocky pet's existing animation rows onto WavePet states. After installing, use the WavePet skill with hatch-pet to generate new state-specific pet assets when you want richer custom reactions.",
+    "developerName": "Matcha-Eason",
+    "category": "Productivity",
+    "capabilities": [
+      "Local",
+      "Analysis"
+    ],
+    "defaultPrompt": [
+      "Use WavePet to design a pet-state adapter.",
+      "Map my Codex events into desktop-pet state JSON.",
+      "Create a simple pet renderer from state JSON.",
+      "Use WavePet and hatch-pet to create new pet assets for WavePet states."
+    ],
+    "brandColor": "#2F6F73",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}

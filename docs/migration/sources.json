@@ -1,0 +1,23 @@
+{
+  "inspected_on": "2026-10-13",
+  "sources": [
+    {
+      "repository": "https://github.com/Matcha-Eason/clawd-on-desk-wavepet",
+      "commit": "cffa9d33a55bf04ea07bb48eecd77edd192676a4",
+      "committed_at": "2026-07-16T15:48:06+08:00",
+      "role": "Desktop application baseline (tracked tree copied; Git history and metadata not copied)"
+    },
+    {
+      "repository": "https://github.com/Matcha-Eason/WavePet",
+      "commit": "df9fac138f40b980a935f32197105cae46847916",
+      "committed_at": "2026-06-26T14:42:08+08:00",
+      "role": "Codex plugin baseline (plugins/ and marketplace copied)"
+    },
+    {
+      "repository": "https://github.com/Matcha-Eason/TokenWave",
+      "commit": "470e9414a59e09fb6867cf9916b16777476e8a11",
+      "committed_at": "2026-06-24T18:04:40+08:00",
+      "role": "Research reference only; training code and datasets remain upstream"
+    }
+  ]
+}

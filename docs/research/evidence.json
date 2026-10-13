@@ -1,0 +1,332 @@
+{
+  "accessed_on": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "method": "Live public GitHub repository search, READMEs, official DSH type definitions and selected plugin source. Search result counts/stars are a time-sensitive snapshot; no engagement or adoption study was performed.",
+  "repositories": [
+    {
+      "repository": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "commit": "44fbca01151d16c20693051213377900be93fb2d",
+      "committed_at": "2026-10-12T19:14:05Z"
+    },
+    {
+      "repository": "https://github.com/deepseek-ai/deepseek-harness",
+      "commit": "d743267388641bc76f17c45ce8b4c231aed1d32c",
+      "committed_at": "2026-10-09T17:31:32+08:00"
+    },
+    {
+      "repository": "https://github.com/dataelement/dsh-desktop",
+      "commit": "115a0b474cc2c4794316171c640a8898398591fe",
+      "committed_at": "2026-10-09T02:20:34-07:00"
+    },
+    {
+      "repository": "https://github.com/cyanfish-x/dsh-live2d-pets",
+      "commit": "6af6f021354afbf30394e363f23caafc800f2b28",
+      "committed_at": "2026-09-24T15:34:13+08:00"
+    },
+    {
+      "repository": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+      "commit": "4e01724e29feaabd62cd9feef687d79e8b348c04",
+      "committed_at": "2026-10-12T10:41:23Z"
+    },
+    {
+      "repository": "https://github.com/OpenPetsHQ/openpets",
+      "commit": "1049485b7a940d196c8b37ab265fcbbbc13cb5b7",
+      "committed_at": "2026-10-12T17:35:42+02:00"
+    },
+    {
+      "repository": "https://github.com/crafter-station/petdex",
+      "commit": "31c0aee7f4fb387774b87d40e8047dc0f9cea94b",
+      "committed_at": "2026-10-10T19:07:20-03:00"
+    },
+    {
+      "document": "https://raw.githubusercontent.com/moeru-ai/airi/main/README.md",
+      "sha256": "cb3bd22b7f6ca63f3e009933f117611857f5e1f9cbe253d86ef74b8038498b17",
+      "scope": "README reviewed; application not run"
+    },
+    {
+      "document": "https://raw.githubusercontent.com/Open-LLM-VTuber/Open-LLM-VTuber/main/README.md",
+      "sha256": "3b6cf6adbf7c49a00e89d99c0fdb582a316054f8bb44332f7c95800fdd674140",
+      "scope": "README reviewed; application not run"
+    },
+    {
+      "document": "https://raw.githubusercontent.com/LorisYounger/VPet/main/README.md",
+      "sha256": "bab2da8bddefeee26414b1a3a08200be88fb24a7fa34d302aeee019a2899469d",
+      "scope": "README reviewed; application not run"
+    },
+    {
+      "document": "https://raw.githubusercontent.com/cookiesheep/whale-on-desk/master/README.md",
+      "sha256": "ec6033f286fc0082e23e7a457709d822dee29dd7c566c8f55a6e6dc7b6c14142",
+      "scope": "README reviewed; application not run"
+    }
+  ],
+  "searches": [
+    {
+      "query": "AI companion stars:>1000",
+      "url": "https://github.com/search?q=AI+companion+stars%3A%3E1000&type=repositories&s=stars&o=desc",
+      "count": 18,
+      "results": [
+        {
+          "repo": "moeru-ai/airi",
+          "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve …",
+          "stars": 50330,
+          "updated_at": "2026-10-13T02:43:57.443Z"
+        },
+        {
+          "repo": "fathah/hermes-desktop",
+          "description": "Desktop Companion for Hermes Agent",
+          "stars": 14402,
+          "updated_at": "2026-10-12T05:05:14.379Z"
+        },
+        {
+          "repo": "Shaunwei/RealChar",
+          "description": "🎙️🤖Create, Customize and Talk to your AI Character/Companion in Realtime (All in One Codebase!). Have a natural seamless conversation with …",
+          "stars": 6209,
+          "updated_at": "2026-01-20T01:23:18.439Z"
+        },
+        {
+          "repo": "a16z-infra/companion-app",
+          "description": "AI companions with memory: a lightweight stack to create and host your own AI companions",
+          "stars": 5977,
+          "updated_at": "2024-04-23T06:48:57.419Z"
+        },
+        {
+          "repo": "Project-N-E-K-O/N.E.K.O",
+          "description": "A catgirl who lives with you in real time — reaching out first, sharing your media, and actually getting things done, powered by an embod…",
+          "stars": 3051,
+          "updated_at": "2026-10-13T01:52:53.777Z"
+        },
+        {
+          "repo": "thepersonalaicompany/amurex",
+          "description": "World's first AI meeting copilot → The Invisible Companion for Work + Life",
+          "stars": 2870,
+          "updated_at": "2025-05-27T06:57:13.687Z"
+        },
+        {
+          "repo": "heshengtao/super-agent-party",
+          "description": "⭐ All-in-one AI companion! Super Agent Party = Self hosted neuro sama + openclaw! ⭐ 全能AI伴侣！超级智能体派对 = 自托管neuro sama + openclaw!",
+          "stars": 2732,
+          "updated_at": "2026-10-10T13:44:49.005Z"
+        },
+        {
+          "repo": "wxtsky/CodeIsland",
+          "description": "Real-time AI coding agent status panel in your MacBook notch — live status, approvals & replies for 30+ AI coding tools, with iPhone & Ap…",
+          "stars": 2494,
+          "updated_at": "2026-10-11T01:37:21.840Z"
+        },
+        {
+          "repo": "The-Vibe-Company/companion",
+          "description": "Persistent AI companions on Box, powered by Pi. Simple web, durable execution, reproducible local development.",
+          "stars": 2402,
+          "updated_at": "2026-10-12T06:41:49.052Z"
+        },
+        {
+          "repo": "akdeb/ElatoAI",
+          "description": "Realtime Voice AI with 100+ Models on Arduino ESP32 with Secure Websockets and Edge Functions for AI Companions, and Devices",
+          "stars": 2047,
+          "updated_at": "2026-10-12T12:21:58.029Z"
+        }
+      ]
+    },
+    {
+      "query": "AI desktop pet",
+      "url": "https://github.com/search?q=AI+desktop+pet&type=repositories&s=stars&o=desc",
+      "count": 937,
+      "results": [
+        {
+          "repo": "NanmiCoder/cc-haha",
+          "description": "本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Clau…",
+          "stars": 14979,
+          "updated_at": "2026-10-12T12:45:30.524Z"
+        },
+        {
+          "repo": "rullerzhou-afk/clawd-on-desk",
+          "description": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
+          "stars": 6427,
+          "updated_at": "2026-10-11T10:26:18.469Z"
+        },
+        {
+          "repo": "SlimeBoyOwO/LingChat",
+          "description": "Immersive AI-driven Galgame chat with emotional expressions, desktop pet, scheduling, and interactive story modules. / 一款沉浸式 AI-Galgame 聊…",
+          "stars": 2349,
+          "updated_at": "2026-10-12T09:00:00.010Z"
+        },
+        {
+          "repo": "DasterProkio/awesome-ai-companion",
+          "description": "Open-source AI companions, desktop pets, long-term memory & proactive chat. 人机恋开源项目大全。让你的家机能够脱离官端自主存在，拥有记忆和主动性。",
+          "stars": 951,
+          "updated_at": "2026-10-13T01:35:24.243Z"
+        },
+        {
+          "repo": "Zao-chen/ZcChat",
+          "description": "一个模仿Galgame效果的AI桌宠 | An AI desktop pet that mimics the effects of a Galgame",
+          "stars": 565,
+          "updated_at": "2026-04-03T14:10:51.434Z"
+        },
+        {
+          "repo": "momori777/Artemis",
+          "description": "破限本地AI女友后宫，Agent+画图语音向量数据库+live2D+桌宠+酒馆角色卡导入+webchat，QQ+Telegram双通道，8G显存可跑 uncensored Fully offline AI girlfriends harem Openclaw/Claude …",
+          "stars": 384,
+          "updated_at": "2026-09-30T15:09:07.397Z"
+        },
+        {
+          "repo": "ntd4996/agentpet",
+          "description": "A desktop pet for macOS & Windows that monitors your AI coding agents (Claude Code, Codex, Cursor, Gemini...) in real time, and grows as …",
+          "stars": 379,
+          "updated_at": "2026-10-09T02:15:01.537Z"
+        },
+        {
+          "repo": "rainnoon/oc-claw",
+          "description": "A desktop pet that monitors your AI coding agents (OpenClaw, Claude Code, Codex, Cursor, Gemini CLI, opencode, Hermes) in real time. OC =…",
+          "stars": 355,
+          "updated_at": "2026-06-17T08:06:18.653Z"
+        },
+        {
+          "repo": "DD-MASTERT/AI-Girlfriend-Desktop-Pet",
+          "description": "AI桌宠2.2（网页端toklen白嫖国产大模型服务器（glm4，kimi，deepseekv2），语音识别，屏幕识别自动发送，live2d 2.0和3.0模型，gpt-sovits语音，coysvoice语音，edge-tts语音（支持多语言音色），本地ollama模型无…",
+          "stars": 238,
+          "updated_at": "2024-08-17T18:53:32.365Z"
+        },
+        {
+          "repo": "Xiazhixuan119748/codex-pet-and-imagegen",
+          "description": "让 Codex 在不修改原有配置的情况下，通过第三方 OpenAI 兼容中转站、Google Gemini、xAI Grok Imagine 或 Agnes AI 生成图片，并创建可在 Codex Desktop 中使用的动态 Pet。",
+          "stars": 218,
+          "updated_at": "2026-07-20T08:35:56.051Z"
+        }
+      ]
+    },
+    {
+      "query": "agent desktop pet",
+      "url": "https://github.com/search?q=agent+desktop+pet&type=repositories&s=stars&o=desc",
+      "count": 366,
+      "results": [
+        {
+          "repo": "NanmiCoder/cc-haha",
+          "description": "本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Clau…",
+          "stars": 14979,
+          "updated_at": "2026-10-12T12:45:30.524Z"
+        },
+        {
+          "repo": "rullerzhou-afk/clawd-on-desk",
+          "description": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
+          "stars": 6427,
+          "updated_at": "2026-10-11T10:26:18.469Z"
+        },
+        {
+          "repo": "OpenPetsHQ/openpets",
+          "description": "Local first, desktop companion platform with animated pets, plugin SDK and coding-agent integrations.",
+          "stars": 1282,
+          "updated_at": "2026-10-12T15:35:43.016Z"
+        },
+        {
+          "repo": "momori777/Artemis",
+          "description": "破限本地AI女友后宫，Agent+画图语音向量数据库+live2D+桌宠+酒馆角色卡导入+webchat，QQ+Telegram双通道，8G显存可跑 uncensored Fully offline AI girlfriends harem Openclaw/Claude …",
+          "stars": 384,
+          "updated_at": "2026-09-30T15:09:07.397Z"
+        },
+        {
+          "repo": "ntd4996/agentpet",
+          "description": "A desktop pet for macOS & Windows that monitors your AI coding agents (Claude Code, Codex, Cursor, Gemini...) in real time, and grows as …",
+          "stars": 379,
+          "updated_at": "2026-10-09T02:15:01.537Z"
+        },
+        {
+          "repo": "rainnoon/oc-claw",
+          "description": "A desktop pet that monitors your AI coding agents (OpenClaw, Claude Code, Codex, Cursor, Gemini CLI, opencode, Hermes) in real time. OC =…",
+          "stars": 355,
+          "updated_at": "2026-06-17T08:06:18.653Z"
+        },
+        {
+          "repo": "jihe520/Agentic-Desktop-Pet",
+          "description": "🤖👾🐶 下一代 Agentic 桌宠 = LLM + 记忆 + 情感 + RPG + Claude Code Next Gen Agentic Desktop Pet = LLM + Memory + Emotion + RPG + Claude Code",
+          "stars": 338,
+          "updated_at": "2026-01-10T13:43:07.265Z"
+        },
+        {
+          "repo": "QingJ01/Clyde",
+          "description": "A desktop pet that reacts to your AI coding agent sessions in real-time.",
+          "stars": 146,
+          "updated_at": "2026-04-17T13:00:33.165Z"
+        },
+        {
+          "repo": "JulesLiu390/PetGPT",
+          "description": "AI desktop pet with social agent(live in telegram, QQ, whatsapp) with map and local memory. Unified access to frontier LLMs",
+          "stars": 108,
+          "updated_at": "2026-10-10T07:35:22.194Z"
+        },
+        {
+          "repo": "Gu-kai-lei/Open-Pet-Office",
+          "description": "A visual multi-agent desktop for Codex: live tasks, shared projects, isolated Missions, and OpenCodex models on Windows.",
+          "stars": 103,
+          "updated_at": "2026-10-04T14:17:49.901Z"
+        }
+      ]
+    },
+    {
+      "query": "deepseek harness pet",
+      "url": "https://github.com/search?q=deepseek+harness+pet&type=repositories&s=stars&o=desc",
+      "count": 269,
+      "results": [
+        {
+          "repo": "crafter-station/petdex",
+          "description": "A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more.",
+          "stars": 4233,
+          "updated_at": "2026-10-10T22:07:22.336Z"
+        },
+        {
+          "repo": "Sutera-Diffusus/dsh-whale-musume",
+          "description": "DeepSeek Harness 桌宠插件：元气鲸鱼娘看板娘陪你写代码 🐋 支持 DSH 桌面端 0.2.0-rc.2 与旧版 Web（desktop pet / mascot，local-first）",
+          "stars": 122,
+          "updated_at": "2026-10-12T10:41:24.080Z"
+        },
+        {
+          "repo": "liyupi/dsh-kun-like-pet",
+          "description": "Kun Like 桌宠 —— DeepSeek Harness 桌面宠物插件：右下角小坤宠随 Agent 工作状态切换 9 种动作，任务完成播放「你干嘛~哎哟」",
+          "stars": 105,
+          "updated_at": "2026-08-14T06:54:53.757Z"
+        },
+        {
+          "repo": "Jimmy0123-ux/dsh-token-pet",
+          "description": "Bilingual floating DeepSeek Harness pet with live context, lifetime token ledger, trends, opt-in completion sound, and editable Prompt Op…",
+          "stars": 56,
+          "updated_at": "2026-09-21T10:22:01.988Z"
+        },
+        {
+          "repo": "Yi-111-a/dsh-jingling",
+          "description": "dsh · dsh-plugin · deepseek · deepseek-harness · deepseek-harness-plugin · ai-companion · desktop-pet · character-card · local-first · pr…",
+          "stars": 55,
+          "updated_at": "2026-08-15T11:06:57.461Z"
+        },
+        {
+          "repo": "keleus/deepseek-pet",
+          "description": "在你的deepseek-harness上养一只吃白饭的大蓝鲸",
+          "stars": 51,
+          "updated_at": "2026-09-27T03:35:07.681Z"
+        },
+        {
+          "repo": "xiaoshihou514/dsh-desktop-pet",
+          "description": "DeepSeek Harness：鲸鱼娘桌宠！",
+          "stars": 44,
+          "updated_at": "2026-08-21T08:33:03.966Z"
+        },
+        {
+          "repo": "yunxiiQwQ/dsh-maid-whale-UI",
+          "description": "DeepSeek Harness Web UI 鲸鱼女仆主题插件",
+          "stars": 41,
+          "updated_at": "2026-09-30T16:23:51.690Z"
+        },
+        {
+          "repo": "Suiwan/whale-purse",
+          "description": "A cute whale desktop pet for DeepSeek Harness that keeps an eye on your DeepSeek balance and session usage/cost. Drag her anywhere, click…",
+          "stars": 31,
+          "updated_at": "2026-10-08T09:54:49.924Z"
+        },
+        {
+          "repo": "cyanfish-x/dsh-live2d-pets",
+          "description": "Live2D 桌宠插件 for DeepSeek Harness：Agent 状态镜像 + 互动陪伴，内置宽松许可预设模型 / Live2D pet plugin: agent state mirror + interactive companion with curate…",
+          "stars": 31,
+          "updated_at": "2026-09-24T07:34:26.923Z"
+        }
+      ]
+    }
+  ]
+}

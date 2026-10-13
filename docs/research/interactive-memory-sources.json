@@ -1,0 +1,87 @@
+{
+  "accessed_on": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "scope": "Primary repository READMEs, abstracts/citations supplied by authors, selected source files. Not all paper PDFs were accessed.",
+  "sources": [
+    {
+      "name": "chatgpt-reading-highlighter",
+      "repository": "https://github.com/Gianna-ui141/chatgpt-reading-highlighter.git",
+      "commit": "3dc93d061c4139eba35548496da5ce7722f4a331"
+    },
+    {
+      "name": "graphologue",
+      "repository": "https://github.com/foundation-interface/graphologue.git",
+      "commit": "5c3563203c1afe0bf80a117a463244f2c6ade4d9"
+    },
+    {
+      "name": "sensecape.github.io",
+      "repository": "https://github.com/sanghosuh/sensecape.github.io.git",
+      "commit": "bf8d04c9cad8bde0990e18b1b019a23d62fc00ce"
+    },
+    {
+      "name": "autonotes",
+      "repository": "https://github.com/PAIR-code/autonotes.git",
+      "commit": "d8d0d9450c51c77931efd02c2600338075d1e2ed"
+    },
+    {
+      "name": "Pensieve",
+      "repository": "https://github.com/DrJonaC/Pensieve.git",
+      "commit": "fe388223eee0dd973d84bf88eab574da4c1d2a62"
+    },
+    {
+      "name": "chatbot-memory-hci",
+      "repository": "https://github.com/hzhfred/chatbot-memory-hci.git",
+      "commit": "a43df3c1433314fc5ebafdc26a059e1d1c0b8c63"
+    },
+    {
+      "name": "semi-auto-memory",
+      "repository": "https://github.com/colonelpanic8/semi-auto-memory.git",
+      "commit": "bc38b98522eb1d200611cddcf081d7a4efc6235f"
+    },
+    {
+      "name": "memoro",
+      "repository": "https://github.com/wazeerzulfikar/memoro.git",
+      "commit": "54a1f577074c618f160878950266cb8103a8bbab"
+    },
+    {
+      "document": "threadmark README",
+      "sha256": "266fc55d26d0cf4af59c894b3f622720902fc17c61e93579515007e6ed3cd5dd",
+      "scope": "project README retrieved from raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/ccheney/threadmark/main/README.md"
+    },
+    {
+      "document": "hypothesis README",
+      "sha256": "2aaa25d2ab02a0e3f6360f775e7cec9247c4404ceaf1df32a4dd67816487102f",
+      "scope": "project README retrieved from raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/hypothesis/h/main/README.md"
+    },
+    {
+      "document": "hypothesis-client README",
+      "sha256": "be9af97c6a13ddf44003e6cd89c2cae3701af18bc3de55695b8f8256ce448963",
+      "scope": "project README retrieved from raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/hypothesis/client/main/README.md"
+    },
+    {
+      "document": "mem0 README",
+      "sha256": "7509347d34a767a2ef37ceb6cf6c714de9e8d84fe66ad5eea92bbae824a8fbeb",
+      "scope": "project README retrieved from raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/mem0ai/mem0/main/README.md"
+    },
+    {
+      "document": "memorybank README",
+      "sha256": "aba6b177072b12e1d8be7bf175d5c8753c6d8717663c5762da923b33f53c840f",
+      "scope": "project README retrieved from raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/zhongwanjun/MemoryBank-SiliconFriend/main/README.md"
+    },
+    {
+      "repository": "https://github.com/Linwei-Chen/llm-memory-research-atlas.git",
+      "commit": "8e0ade159a2710de8c54a30778b38c40e3c775d1",
+      "scope": "Secondary literature directory; 2026 paper details are leads requiring primary-source verification"
+    },
+    {
+      "repository": "https://github.com/H20Zhang/Agent-Memory-Radar.git",
+      "commit": "47379f841c844cf97d2cfe4a6156431c8ee572a3",
+      "scope": "Secondary literature directory; 2026 paper details are leads requiring primary-source verification"
+    }
+  ]
+}

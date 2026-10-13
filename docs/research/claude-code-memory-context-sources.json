@@ -1,0 +1,345 @@
+{
+  "accessed_on": "2026-10-13",
+  "timezone": "Etc/UTC",
+  "scope": "Static reading of official repositories and selected third-party historical snapshot files. No external source execution and no model/API performance experiments.",
+  "official_npm_check": {
+    "package": "@anthropic-ai/claude-code",
+    "latest": "2.1.296",
+    "dist_tags": {
+      "latest": "2.1.296",
+      "next": "2.1.296",
+      "stable": "2.1.287"
+    },
+    "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.296.tgz",
+    "registry_reported_integrity": "sha512-OX/k/rpcthMqnFKOWcpNcbiLsMKtAjLOpQNJHlYiDCFUznWCIwdRTyl/p9SdHVrsrzZuPMCNqZjnpakIni6upw==",
+    "integrity_scope": "Metadata recorded; current native distribution was not executed or authenticated against the third-party source snapshot.",
+    "historical_2_1_88_check": "Explicit npm view against registry.npmjs.org returned E404: No match found for version 2.1.88. Earlier npm pack also failed with no matching version. Original official tarball could not be fetched to authenticate the snapshot.",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "sources": [
+    {
+      "commit": "bf2323b3021c9d3db7a31e1e7d61068c3f704497",
+      "commit_date": "2026-10-13T04:34:03Z",
+      "origin": "https://github.com/anthropics/claude-code.git",
+      "name": "claude-code",
+      "classification": "official_repository",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+          "url": "https://github.com/anthropics/claude-code/blob/bf2323b3021c9d3db7a31e1e7d61068c3f704497/README.md"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "0383b383e05c30b7592c512ea3356104cbc3a799d028d36204033175ff256a51",
+          "url": "https://github.com/anthropics/claude-code/blob/bf2323b3021c9d3db7a31e1e7d61068c3f704497/CHANGELOG.md"
+        },
+        {
+          "path": "mods/README.md",
+          "sha256": "50a62fcd275c4f5f1a813f0bb437d8486c537136c276575935c91aa7291c7306",
+          "url": "https://github.com/anthropics/claude-code/blob/bf2323b3021c9d3db7a31e1e7d61068c3f704497/mods/README.md"
+        },
+        {
+          "path": "mods/agents-md/README.md",
+          "sha256": "55885789cae3a3b2fa2aeecdead0b319b136b97b235057c6ac13d97184a3b724",
+          "url": "https://github.com/anthropics/claude-code/blob/bf2323b3021c9d3db7a31e1e7d61068c3f704497/mods/agents-md/README.md"
+        },
+        {
+          "path": "mods/agents-md/hooks/register.ts",
+          "sha256": "b095abea27ece42ac37c613cc3f06a7a45380d80cc028c5c7a4fabbaeea7c153",
+          "url": "https://github.com/anthropics/claude-code/blob/bf2323b3021c9d3db7a31e1e7d61068c3f704497/mods/agents-md/hooks/register.ts"
+        }
+      ]
+    },
+    {
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "commit_date": "2026-10-09T18:45:49Z",
+      "origin": "https://github.com/anthropics/skills.git",
+      "name": "skills",
+      "classification": "official_repository",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+          "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/README.md"
+        },
+        {
+          "path": "skills/skill-creator/SKILL.md",
+          "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+          "url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator/SKILL.md"
+        }
+      ]
+    },
+    {
+      "commit": "b6e9d12fe1cc98dde988ab7b7713c1feeee50c6c",
+      "commit_date": "2026-10-09T19:32:23Z",
+      "origin": "https://github.com/anthropics/claude-agent-sdk-python.git",
+      "name": "claude-agent-sdk-python",
+      "classification": "official_repository",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "sha256": "c38a933bf8fef26316ea38635989b254e69a26d21d80b96bf5731cba4e88bcc6",
+          "url": "https://github.com/anthropics/claude-agent-sdk-python/blob/b6e9d12fe1cc98dde988ab7b7713c1feeee50c6c/README.md"
+        },
+        {
+          "path": "src/claude_agent_sdk/types.py",
+          "sha256": "af76b7982e6eb5dbee49a53353e0ac1197ac0bc2016536378c011ba848a504d7",
+          "url": "https://github.com/anthropics/claude-agent-sdk-python/blob/b6e9d12fe1cc98dde988ab7b7713c1feeee50c6c/src/claude_agent_sdk/types.py"
+        }
+      ]
+    },
+    {
+      "commit": "9c1e493ddd2b82df399d2a61b9c806c539e18be6",
+      "commit_date": "2026-10-10T05:24:54-04:00",
+      "origin": "https://github.com/anthropics/anthropic-cookbook.git",
+      "name": "anthropic-cookbook",
+      "classification": "official_repository",
+      "inspected_files": [
+        {
+          "path": "tool_use/memory_cookbook.ipynb",
+          "sha256": "5aa92928e542e374c2d5af7c299efd37b5ac49c9e35ee119db69d1bdcb84bf8e",
+          "url": "https://github.com/anthropics/anthropic-cookbook/blob/9c1e493ddd2b82df399d2a61b9c806c539e18be6/tool_use/memory_cookbook.ipynb"
+        },
+        {
+          "path": "tool_use/context_engineering/context_engineering_tools.ipynb",
+          "sha256": "a78f2b21b70cc53e6e8b8e03eaeee02af6bcfc1c5fecd6cbead0b720e2f21c07",
+          "url": "https://github.com/anthropics/anthropic-cookbook/blob/9c1e493ddd2b82df399d2a61b9c806c539e18be6/tool_use/context_engineering/context_engineering_tools.ipynb"
+        },
+        {
+          "path": "misc/session_memory_compaction.ipynb",
+          "sha256": "a18f8e532f1430469f9941b24958c265ec7c982b0c34c35f1e0d847123e424f6",
+          "url": "https://github.com/anthropics/anthropic-cookbook/blob/9c1e493ddd2b82df399d2a61b9c806c539e18be6/misc/session_memory_compaction.ipynb"
+        },
+        {
+          "path": "misc/prompt_caching.ipynb",
+          "sha256": "69bc116de8d9d763e63fd010d0b317dbfa056f5343c408bc65f8abb632e5a535",
+          "url": "https://github.com/anthropics/anthropic-cookbook/blob/9c1e493ddd2b82df399d2a61b9c806c539e18be6/misc/prompt_caching.ipynb"
+        }
+      ]
+    },
+    {
+      "commit": "c8cd253554319f32ff64ff7000636199f720c9bc",
+      "commit_date": "2026-03-31T17:34:31+08:00",
+      "origin": "https://github.com/Exhen/claude-code-2.1.88.git",
+      "name": "claude-code-2.1.88",
+      "classification": "third_party_historical_snapshot",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "sha256": "cb098a3a318565bf2f268ab408812e84c7bcff9f9d295be094c9e47548472b3e",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/README.md"
+        },
+        {
+          "path": "package.json",
+          "sha256": "e21f9e98fa4ea8b4d007063d92c631df1bbed6d11c9e79c5fcdeb9f4859dc8fa",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/package.json"
+        },
+        {
+          "path": "source/src/context.ts",
+          "sha256": "5d40784d73643a2f258751b624d99f6bee77b330e0a1af00d5ccd5b163b1789b",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/context.ts"
+        },
+        {
+          "path": "source/src/memdir/memdir.ts",
+          "sha256": "244cd4a01a4c82660dbeffe6f60808a45a12482d6342601f2b640542604f3e7c",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/memdir/memdir.ts"
+        },
+        {
+          "path": "source/src/memdir/memoryTypes.ts",
+          "sha256": "dd4d891faf3856c2ddb0ebac7763c16fe576ebdb4f4c8703dca897e217be0d93",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/memdir/memoryTypes.ts"
+        },
+        {
+          "path": "source/src/memdir/memoryScan.ts",
+          "sha256": "c864aa869ce366d52d338f26c702705846fa8e5125a4befeeac8e28dd4a19a58",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/memdir/memoryScan.ts"
+        },
+        {
+          "path": "source/src/memdir/findRelevantMemories.ts",
+          "sha256": "360c291993881d94eb3b427ed60f25e61abfcce020292b4fd528c97908bf52ed",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/memdir/findRelevantMemories.ts"
+        },
+        {
+          "path": "source/src/utils/attachments.ts",
+          "sha256": "fa103be6cc512b9210fe50695c8de5554d7438d5f0cba831d42b08d134b3401f",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/utils/attachments.ts"
+        },
+        {
+          "path": "source/src/services/extractMemories/extractMemories.ts",
+          "sha256": "0361cb90cd2e5274371246bb9d8d60a0d617c205ba2dbb99cefa6305d03edd9a",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/extractMemories/extractMemories.ts"
+        },
+        {
+          "path": "source/src/services/SessionMemory/prompts.ts",
+          "sha256": "37c52fa005cfda8ebe3978d7e93a6101c1d956010f2a4733b9a38481d0b85975",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/SessionMemory/prompts.ts"
+        },
+        {
+          "path": "source/src/services/SessionMemory/sessionMemory.ts",
+          "sha256": "44919a725fc87d7f375cf35ba4ddfe9158c8acaa4d8e0b17055605fa6135e6d1",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/SessionMemory/sessionMemory.ts"
+        },
+        {
+          "path": "source/src/services/compact/sessionMemoryCompact.ts",
+          "sha256": "2ece0444187296b18c0edcfb9d01f2b3f0708854c81fdd2de6c3fb1236b08045",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/compact/sessionMemoryCompact.ts"
+        },
+        {
+          "path": "source/src/services/compact/compact.ts",
+          "sha256": "80af045d9247de7dda0cbe7aab653329d0b7c8b62a2cdadfd86238305df71f53",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/compact/compact.ts"
+        },
+        {
+          "path": "source/src/services/compact/microCompact.ts",
+          "sha256": "4509572de2be2f8024820df3e1e1f79e32074c708e56b3f5de0b37764f0d7bf2",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/compact/microCompact.ts"
+        },
+        {
+          "path": "source/src/utils/api.ts",
+          "sha256": "de3e1183a65e83781bde49e1c84edf967dab32c3147b427f8ba9a64a15cfe276",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/utils/api.ts"
+        },
+        {
+          "path": "source/src/services/api/claude.ts",
+          "sha256": "6d3fd16e608120d502e70ec461ffb66bcbca12fa86862859606c9118f977a999",
+          "url": "https://github.com/Exhen/claude-code-2.1.88/blob/c8cd253554319f32ff64ff7000636199f720c9bc/source/src/services/api/claude.ts"
+        }
+      ]
+    },
+    {
+      "commit": "f4d6505ed9162a0ee6be089190f74c419ecacb19",
+      "commit_date": "2026-08-17T16:27:42+08:00",
+      "origin": "https://github.com/Windy3f3f3f3f/how-claude-code-works.git",
+      "name": "how-claude-code-works",
+      "classification": "secondary_analysis",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "sha256": "4d9fc910ec42c7dc5e6a4e3adecfb91eebd4dee042fb2bddf9bfcda313669cb0",
+          "url": "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+        },
+        {
+          "path": "docs/03-context-engineering.md",
+          "sha256": "1ca549d20a86e1623f10955fb9593e5429e44ec51ad4690bd5842eedab3237e1",
+          "url": "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/03-context-engineering.md"
+        },
+        {
+          "path": "docs/08-memory-system.md",
+          "sha256": "df766f5c61eb3b0793acdb3a9c34d74f647bb652f21bd2c82df2da550b94fe81",
+          "url": "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/08-memory-system.md"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/anthropics/claude-quickstarts.git",
+      "commit": "9ec32b91df50b0d4906cae64b13c6298055ff40d",
+      "files": [
+        {
+          "path": "README.md",
+          "same_as_initial_main_fetch": true,
+          "sha256": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83"
+        },
+        {
+          "path": "prompts/initializer_prompt.md",
+          "same_as_initial_main_fetch": true,
+          "sha256": "dc30edc9806096d7a9337a1676acb6b53caee539791663f675fdaec54b98cd13"
+        },
+        {
+          "path": "prompts/coding_prompt.md",
+          "same_as_initial_main_fetch": true,
+          "sha256": "6f1fe5ef3c81a9aed7478ce0c51d8fd067f8c6b90183c5f921610fa4b35dfedc"
+        },
+        {
+          "path": "agent.py",
+          "same_as_initial_main_fetch": true,
+          "sha256": "4cfe854312b8086bf5793a0e6020fe17e41d0a086e7c699d951eac65b868b2cb"
+        }
+      ],
+      "name": "claude-quickstarts",
+      "classification": "official_repository"
+    },
+    {
+      "name": "dsh-answer-highlighter",
+      "classification": "user_project_source",
+      "repository": "https://github.com/Matcha-Eason/dsh-answer-highlighter",
+      "commit": "80cac3e0d725d2a09e17240a11abad1cb7097f6c",
+      "inspected_files": [
+        {
+          "path": "src/model.js",
+          "sha256": "1a479907ce3206ef867915514ccd6b0fe77d6ef2485eced3765eb7f031367966",
+          "url": "https://github.com/Matcha-Eason/dsh-answer-highlighter/blob/80cac3e0d725d2a09e17240a11abad1cb7097f6c/src/model.js"
+        },
+        {
+          "path": "src/storage.js",
+          "sha256": "38420d1b393aa0ee4982198f8742f4dbae87e3754ee982add99f24c1adc91087",
+          "url": "https://github.com/Matcha-Eason/dsh-answer-highlighter/blob/80cac3e0d725d2a09e17240a11abad1cb7097f6c/src/storage.js"
+        },
+        {
+          "path": "src/prompt.js",
+          "sha256": "65c91e519b06289fdff1db39889479d453fe23d7e483a7e50615048ce11c42b5",
+          "url": "https://github.com/Matcha-Eason/dsh-answer-highlighter/blob/80cac3e0d725d2a09e17240a11abad1cb7097f6c/src/prompt.js"
+        }
+      ]
+    }
+  ],
+  "snapshot_internal_checks": {
+    "source_map": {
+      "version": 3,
+      "source_entries": 4756,
+      "sourcesContent_entries": 4756,
+      "sha256": "7965012b7a5fc9e09d8d747a04c5c32b94696924536e217f686bb1e7ee70a657"
+    },
+    "checks": [
+      {
+        "file": "src/memdir/memdir.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/memdir/memoryTypes.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/memdir/findRelevantMemories.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/services/extractMemories/extractMemories.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      },
+      {
+        "file": "src/context.ts",
+        "map_entries": 1,
+        "matches_extracted": true
+      }
+    ],
+    "interpretation": "Internal source-map/extraction consistency only. This does not authenticate official origin or prove equivalence to current releases."
+  },
+  "blog_reading_links": [
+    {
+      "title": "Effective context engineering for AI agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "access": "Direct page blocked by environment network policy; principles checked through official cookbook."
+    },
+    {
+      "title": "Equipping agents for the real world with Agent Skills",
+      "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+      "access": "Full page not accessed; related progressive disclosure checked in official Skills repository."
+    },
+    {
+      "title": "Effective harnesses for long-running agents",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+      "access": "Full page not accessed; related harness patterns checked in official autonomous-coding quickstart."
+    }
+  ],
+  "limits": [
+    "Historical feature gates do not establish current default behavior.",
+    "Official cookbook examples are not proof of identical Claude Code internals.",
+    "Local annotation-result reuse does not establish provider prompt-cache hits.",
+    "No new paper novelty claim or general performance claim is made."
+  ]
+}

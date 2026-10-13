@@ -47,6 +47,8 @@ python3 plugins/wavepet/scripts/pet_state_engine.py --demo
 | 入口 | 内容 |
 |---|---|
 | [生态调研](docs/research/ecosystem-2026-10-13.md) | DSH、桌宠、AI 伴侣、状态/素材生态及机会判断 |
+| [交互型记忆调研](docs/research/interactive-memory-2026-10-13.md) | 回复批注、用户可控记忆的项目与论文前作 |
+| [Claude Code 记忆与上下文](docs/research/claude-code-memory-context-2026-10-13.md) | 官方材料、历史源码快照及对 DSH 高亮和桌宠的启发 |
 | [路线图](docs/roadmap.md) | 推荐主线、优先级、验收指标、待验证假设 |
 | [迁移记录](docs/migration/README.md) | 三个原仓库的归属、修改范围与后续同步方式 |
 | [开发说明](docs/development.md) | 安装、回放、测试、构建和人工验收 |
@@ -59,4 +61,4 @@ TokenWave 继续作为[外部研究仓库](https://github.com/Matcha-Eason/Token
 
 桌面源代码沿用 [AGPL-3.0-only](LICENSE)，WavePet 独立插件保留其 [MIT 许可证](plugins/wavepet/LICENSE)。保留上游作者署名和 [NOTICE](NOTICE.md)。
 
-**美术素材不受代码许可证覆盖。** 迁移保留了原主题与素材供现有功能开发；[assets/LICENSE](assets/LICENSE) 对其复制、分发与商用有独立限制。对外发布前应确认权利或替换为可分发的原创/明确授权素材；Codex Rocky 不随 WavePet 插件分发。当前没有发布安装包或推送远端。
+**美术素材不受代码许可证覆盖。** 迁移保留了原主题与素材供现有功能开发；[assets/LICENSE](assets/LICENSE) 对其复制、分发与商用有独立限制。对外发布前应确认权利或替换为可分发的原创/明确授权素材；Codex Rocky 不随 WavePet 插件分发。代码迁移和调研已按用户要求推送到 GitHub 备份，尚未发布安装包。

@@ -48,6 +48,7 @@ python3 plugins/wavepet/scripts/pet_state_engine.py --demo
 |---|---|
 | [生态调研](docs/research/ecosystem-2026-10-13.md) | DSH、桌宠、AI 伴侣、状态/素材生态及机会判断 |
 | [交互型记忆调研](docs/research/interactive-memory-2026-10-13.md) | 回复批注、用户可控记忆的项目与论文前作 |
+| [DSH 历史高亮 idea](docs/ideas/dsh-highlighted-history-2026-10-13.md) | 让自动/用户标注在后续轮次中继续提示对话重点 |
 | [Claude Code 记忆与上下文](docs/research/claude-code-memory-context-2026-10-13.md) | 官方材料、历史源码快照及对 DSH 高亮和桌宠的启发 |
 | [Claude Code 记忆系统走读](docs/research/claude-code-memory-system-walkthrough-2026-10-13.md) | 直接追踪存储、写入、召回、后台整理与压缩续接 |
 | [路线图](docs/roadmap.md) | 推荐主线、优先级、验收指标、待验证假设 |
